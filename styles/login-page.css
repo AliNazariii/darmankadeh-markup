@@ -1,0 +1,117 @@
+.layout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+.side-container {
+  background-color: #1780df;
+  height: 100%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-container img {
+  width: 50%;
+}
+
+.side-container h4 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 1.5rem;
+}
+
+.side-container h5 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 4rem;
+}
+
+.main-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  direction: rtl;
+}
+
+.main-container .main-title {
+  color: #3b4157;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container input {
+  border: 2px solid #cdcdcd;
+  border-radius: 0.5rem;
+  width: 356px;
+  background-color: #fafafa;
+  height: 5rem;
+  outline: none;
+  padding: 0 2rem;
+}
+
+.input-container h4 {
+  position: absolute;
+  top: -17px;
+  background-color: #fafafa;
+  right: 15px;
+  font-size: 1.4rem;
+  color: #6e7794;
+  padding: 0.4rem;
+}
+
+.submit-btn {
+  width: 400px;
+  background-color: #fb815e;
+  outline: none;
+  border: none;
+  height: 5.5rem;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+}
+
+.refer-code {
+  border: none;
+  background-color: transparent;
+  border: 1px solid #fb815e;
+  padding: 0 1.5rem;
+  outline: none;
+  height: 5.5rem;
+  border-radius: 1rem;
+  color: #fb815e;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+}
+
+.login-google {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-google img {
+  width: 4rem;
+}
+
+.login-google h4 {
+  display: block;
+  color: #1780df;
+  border-bottom: 2px dashed #1780df;
+}

@@ -1,0 +1,276 @@
+#main-section-container {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.side-bar-container {
+  position: sticky;
+  width: 25%;
+}
+
+.side-bar-container img {
+  width: 100%;
+}
+
+.search-container {
+  margin-top: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 1rem;
+  direction: rtl;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+.search-container h5 {
+  color: #3b4157;
+  font-size: 1.6rem;
+  display: block;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 1.5rem;
+}
+
+.input-container {
+  background-color: #fafafa;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  color: #6e7794;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  flex: 1;
+}
+
+.input-container i {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.sidebar-card {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 1rem;
+  direction: rtl;
+  padding: 0.8rem 1.6rem;
+  background-color: #fff;
+  margin-top: 1rem;
+  align-items: center;
+  font-size: 1.6rem;
+  color: #3b4157;
+  font-weight: 700;
+}
+
+.sidebar-card i {
+  color: #1780df;
+}
+
+.sidebar-card:last-child {
+  font-size: 1.4rem;
+}
+
+.switch-container {
+  background-color: #ccc;
+  border-radius: 3.5rem;
+  padding: 0 0.2rem;
+  width: 40px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.switch-container div {
+  background-color: #fff;
+  float: left;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+}
+
+.doctors-list-container {
+  flex: 1;
+  margin-right: 2rem;
+  direction: rtl;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 1rem;
+  padding: 1.6rem;
+  background-color: #fff;
+  color: #3b4157;
+}
+
+.sort-container i {
+  font-size: 2.3rem;
+  margin-left: 1rem;
+}
+
+.sort-container p {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.sort-container a {
+  color: #6e7794;
+  cursor: pointer;
+  font-size: 1.4rem;
+  margin: 0 3rem;
+}
+
+.sort-container .active-sort-item {
+  background-color: #1780df;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.2rem 0.7rem;
+}
+
+.doctor-item {
+  display: flex;
+  border: 1px solid #ededed;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+.doctor-item:hover {
+  border: 1px solid #fb815e;
+}
+
+.doctor-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.doctor-item-center {
+  margin-right: 1.5rem;
+  width: 41%;
+}
+
+.doctor-item-center h5 {
+  font-size: 1.8rem;
+  color: #3b4157;
+  margin-bottom: 0.5rem;
+}
+
+.doctor-item-center h6 {
+  font-size: 1.6rem;
+  color: #3b4157;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.doctor-item-center div {
+  display: flex;
+  font-size: 1rem;
+  color: #6e7794;
+  margin-bottom: 3rem;
+}
+
+.doctor-item-center div i {
+  color: #1780df;
+  font-size: 1.4rem;
+  padding: 0 0.3rem;
+}
+
+.doctor-feedback {
+  color: #6e7794;
+  font-size: 1.4rem;
+}
+
+.doctor-item-left {
+  margin-right: 4rem;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-info {
+  background-color: #e5f2fe;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  flex: 1;
+}
+
+.doctor-info div {
+  display: flex;
+  align-items: center;
+  color: #6e7794;
+  margin: 1rem 0;
+}
+
+.doctor-info div i {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.doctor-info div p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.reserve-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.reserve-container a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  background-color: #fb815e;
+  border-color: #fb815e;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-align: center;
+  flex: 1;
+  padding: 1.3rem;
+}
+
+.reserve-container a i {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.8rem;
+  font-size: 1.5rem;
+}
+
+.like-container {
+  border: 1px solid #ededed;
+  width: 50px;
+  height: 50px;
+  background-color: #fafafa;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-container i {
+  color: #1780df;
+  font-size: 2.5rem;
+}
+
+.latest-free-time {
+  margin-top: 1rem;
+  text-align: center;
+  color: #4dcc6b;
+  font-size: 1.2rem;
+}

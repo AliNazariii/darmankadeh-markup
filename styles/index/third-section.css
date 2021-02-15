@@ -1,0 +1,108 @@
+#third-section-container {
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  justify-content: center;
+}
+
+.third-section-wrapper {
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  max-width: 1140px;
+}
+
+.third-section-description {
+  margin-top: 4rem;
+  flex: 1 1 0;
+  direction: rtl;
+}
+
+.third-section-description h4 {
+  font-size: 2rem;
+  color: #3b4157;
+  padding: 1.5rem 0;
+}
+
+.third-section-description p {
+  font-size: 1.4rem;
+  color: #6e7794;
+  line-height: 30px;
+  width: 75%;
+}
+
+.third-section-comment-container {
+  flex: 1 1 0;
+  position: relative;
+}
+
+.third-section-comment-container #quote-img {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top: -22px;
+  right: 30px;
+}
+
+.third-section-comment-card {
+  border: 1px solid #1780df;
+  background-color: #e5f2fe;
+  border-radius: 2rem;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.third-section-comment-card p {
+  font-size: 1.6rem;
+  display: block;
+  direction: rtl;
+  padding: 2rem 0;
+  color: #3b4157;
+}
+
+.third-section-comment-card-bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  border-top: 2px dashed #6e7794;
+  padding: 1rem 1.5rem 0 1.5rem;
+  align-items: center;
+}
+
+.third-section-comment-card-bottom img {
+  border-radius: 50%;
+  width: 75px;
+}
+
+.third-section-comment-card-bottom div {
+  color: #3b4157;
+  font-size: 1.4rem;
+  direction: rtl;
+  margin: 0 1.5rem;
+  flex: 1;
+}
+
+.third-section-comment-card-bottom div p {
+  padding: 0;
+  margin-top: 0.8rem;
+}
+
+.third-section-comment-card-bottom a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fb815e;
+  border-color: #fb815e;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  padding: 0.7rem 1.3rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.third-section-comment-card-bottom a:hover {
+  background-color: #fa6439;
+  border-color: #fa5a2c;
+}

@@ -1,0 +1,72 @@
+#fourth-section-container {
+  width: 100%;
+  background-image: url("../../statics/index/fourth-section/bg.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+#fourth-section-container h5 {
+  font-size: 2.8rem;
+  color: #fff;
+  padding: 5rem 0;
+}
+
+.fourth-section-services {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 100%;
+}
+
+.fourth-section-service {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 0 5rem;
+}
+
+.fourth-section-service img {
+  width: 100%;
+  height: 250px;
+}
+
+.fourth-section-service h4 {
+  font-size: 1.8rem;
+  padding: 2.4rem 0;
+}
+
+.fourth-section-service p {
+  direction: rtl;
+  font-size: 1.4rem;
+  line-height: 26px;
+  padding-bottom: 2.4rem;
+}
+
+.fourth-section-service a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fb815e;
+  border-color: #fb815e;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  padding: 1.8rem;
+  font-weight: 700;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+  text-align: center;
+}
+
+.fourth-section-service a:hover {
+  background-color: #fa6439;
+  border-color: #fa5a2c;
+}
+
+.fourth-section-service a i {
+  margin-right: 1.5rem;
+}

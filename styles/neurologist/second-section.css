@@ -1,0 +1,56 @@
+#second-section-container {
+  width: 100%;
+  margin-top: 3rem;
+  background-color: #e5f2fe;
+  max-width: 1140px;
+  border-radius: 1rem;
+  direction: rtl;
+  color: #3b4157;
+}
+
+#second-section-container h5 {
+  font-size: 2rem;
+  line-height: 1.8;
+  padding: 2rem;
+}
+
+#second-section-container h5 span {
+  color: #1780df;
+  font-weight: 700;
+}
+
+#second-section-container p {
+  color: #6e7794;
+  font-size: 1.4rem;
+  line-height: 30px;
+  padding: 1rem 2rem;
+}
+
+#second-section-container p span {
+  font-weight: bolder;
+}
+
+#second-section-container button {
+  float: left;
+  background-color: #fb815e;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  text-align: center;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 1.5rem;
+}
+
+#second-section-container button:hover {
+  background-color: #fa6439;
+  border-color: #fa5a2c;
+}
+
+#second-section-container button i {
+  margin-right: 0.5rem;
+}

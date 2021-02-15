@@ -1,0 +1,25 @@
+.layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.16);
+  position: fixed;
+  z-index: 5;
+}
+
+.content-wrapper {
+  margin-top: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
